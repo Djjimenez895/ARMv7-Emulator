@@ -1,7 +1,7 @@
 # ARMv7-Emulator
 
 ## Description
-This is an ARMv7 Emulator that runs specific assembly files. ARMv7 is a RISC assembly language used in some older ARM 32-bit processors. This emulator uses the official ARMv7 documentation to create the different opcodes, condition codes, and instruction formats.
+This is an ARMv7 Emulator written in C that runs specific assembly files. ARMv7 is a RISC assembly language used in some older ARM 32-bit processors. This emulator uses the official ARMv7 documentation to create the different opcodes, condition codes, and instruction formats.
 
 The emulator supports three different instruction types: 
 

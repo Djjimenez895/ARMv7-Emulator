@@ -6,12 +6,14 @@ This is an ARMv7 Emulator that runs specific assembly files. ARMv7 is a RISC ass
 The emulator supports three different instruction types: 
 
 1) Data Processing Instructions - Responsible for handling arithmetic and logical operations on registers. The format for this type of instruction looks like the following:
-
+![screenshot](data_processing_format.PNG)
 
 2) Memory Processing Instructions (Specifically Single Data Transfer, ldr & str) - This type of instruction loads and stores data
 from memory. The format for memory processing instrucitons is completely different from the data processing instructions:
+![screenshot](load_and_store.PNG)
 
+3) Branch and bl instructions - Branch instructions allow the program to move to different lines and also call functions (bl). Like the other two instruction types, branches have their own format for instructions. 
+![screenshot](branch_and_bl.PNG)
 
-3) Branch and exchange instructions - Branch instructions allow the program to move to different lines and also return from
-"function" (bxlr). Like the other two instruction types, branches have their own format for instructions. 
-
+The "return" instruction, branch and exchange, has its own special format as well:
+![screenshot](bx_format.PNG)

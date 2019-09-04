@@ -14,6 +14,5 @@ from memory. The format for memory processing instrucitons is completely differe
 
 3) Branch and bl instructions - Branch instructions allow the program to move to different lines and also call functions (bl). Like the other two instruction types, branches have their own format for instructions. 
 ![screenshot](branch_and_bl.PNG)
-
-  The "return" instruction, branch and exchange, has its own special format as well:
-  ![screenshot](bx_format.PNG)
+The "return" instruction, branch and exchange, has its own special format as well:
+![screenshot](bx_format.PNG)

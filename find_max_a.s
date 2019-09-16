@@ -1,8 +1,8 @@
 .global find_max_a
 .func find_max_a
 
-/*r0 will store *array, r1 will store the length */
-/*r4 will store i */
+/* r0 will store *array, r1 will store the length */
+/* r4 will store i */
 /* Max value will be stored in r5 */
 
 find_max_a:

@@ -1,7 +1,7 @@
 .global fib_iter_a_v2
 .func fib_iter_a_v2
 
-/*r0 = nth_val, can function as length too?? */
+/* r0 = nth_val */
 
 fib_iter_a_v2:
 
@@ -21,7 +21,7 @@ fib_iter_a_v2:
     /*r7 will be next_val */
 
 loop:
-    cmp r4, r0 /*r0 can be used to check length*/
+    cmp r4, r0 /* r0 can be used to check length */
     bgt done
     cmp r4, #1
     movle r7, r4

@@ -2,7 +2,6 @@
 .func fib_rec_a
 
 /*r0 = nth number */
-/* */
 
 fib_rec_a:
     sub sp, sp, #8
